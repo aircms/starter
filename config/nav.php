@@ -15,17 +15,6 @@ return [
         'icon' => 'book',
         'url' => ['controller' => 'legalPrivacyPolicy']
       ],
-    ]
-  ],
-  [
-    'title' => 'Користувачі',
-    'icon' => 'users',
-    'items' => [
-      [
-        'title' => 'Звернення користувачів',
-        'icon' => 'cogs',
-        'url' => ['controller' => 'userRequest']
-      ],
-    ]
+    ],
   ],
 ];
