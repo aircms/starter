@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "html-loader": "^5.1.0",
+    "jquery": "^3.7.1"
+  },
+  "scripts": {
+    "build-js": "webpack",
+    "watch-js": "webpack --watch",
+    "build-css": "sass ./app/ui/scss/main.scss ./www/assets/ui/build.css --style=compressed && cp -r ./app/ui/scss/fa/webfonts ./www/assets/ui/",
+    "watch-css": "sass ./app/ui/scss/main.scss ./www/assets/ui/build.css --watch"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}

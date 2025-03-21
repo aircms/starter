@@ -1,0 +1,27 @@
+<?php
+
+use Air\Crud\Controller\Codes;
+use Air\Crud\Controller\FontsUi;
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <?php echo Codes::render(); ?>
+  <?php echo $this->getMeta(); ?>
+  <?php echo FontsUi::asset(); ?>
+  <?php echo $this->asset('build.css'); ?>
+</head>
+<body>
+<a href="/">Index</a>&nbsp; | &nbsp; <a href="/page2">Page 2</a>
+<hr/>
+<main role="main">
+  <?php echo $this->getContent(); ?>
+</main>
+<?php echo $this->asset('build.js'); ?>
+</body>
+</html>
