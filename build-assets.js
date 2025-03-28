@@ -1,11 +1,11 @@
 const filesJs = [
   // ...
-  'js/vendor/jquery.min.js',
-  'js/vendor/try-catch.js',
-  'js/vendor/timer.js',
-  'js/vendor/wait.js',
-  'js/vendor/nav.js',
-  'js/vendor/bg-image.js',
+  'js/libs/jquery.min.js',
+  'js/libs/try-catch.js',
+  'js/libs/timer.js',
+  'js/libs/wait.js',
+  'js/libs/nav.js',
+  'js/libs/bg-image.js',
   'js/main.js',
 ];
 
