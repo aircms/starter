@@ -55,10 +55,10 @@ const mergeFiles = async () => {
   const content = [];
   for (const filePath of filesToMerge) {
     const fileContent = fs.readFileSync(path.resolve(__dirname, 'app/ui/', filePath), 'utf8');
-    if (filePath.endsWith('.min.js')) {
+    if (filePath.endsWith('.min.')) {
       content.push(fileContent);
     } else {
-      content.push(await minify(fileContent, "js"));
+      content.push(await minify(fileContent, filePath.endsWith('.js') ? "js" : "css"));
     }
   }
   fs.writeFileSync(outputFilePath, content.join(';'));
