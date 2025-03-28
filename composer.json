@@ -28,9 +28,6 @@
   "scripts": {
     "assets": [
       "ln -sfn ../../vendor/aircms/core/assets www/assets/air"
-    ],
-    "gen": [
-      "php vendor/aircms/core/generator.php"
     ]
   }
 }

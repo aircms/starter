@@ -87,13 +87,16 @@ return [
       'strict' => true,
       'module' => 'ui',
       'routes' => require_once 'routes.php',
+      'prefix' => '/:language',
       'air' => [
+        'strictInject' => true,
         'view' => [
           'minify' => false,
         ],
         'asset' => [
-          'underscore' => true,
           'prefix' => '/assets/ui',
+          'underscore' => false,
+          'date' => true,
           'defer' => true,
           'async' => true,
         ],

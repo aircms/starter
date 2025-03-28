@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9bdc570f59257fa8941330b95499da2",
+    "content-hash": "b68048e07cab2e981d8c1854fd09083d",
     "packages": [
         {
             "name": "aircms/core",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aircms/core.git",
-                "reference": "7ed389bbe1374b9383934bd609dc52d09907c692"
+                "reference": "89780b15d04d932b40fd380e5d4689fe1f271050"
             },
             "require": {
                 "ext-curl": "*",
@@ -35,7 +35,7 @@
                     "email": "execrot@gmail.com"
                 }
             ],
-            "time": "2024-12-23T20:53:36+00:00"
+            "time": "2025-03-21T16:18:16+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
